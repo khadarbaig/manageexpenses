@@ -1,0 +1,23 @@
+{
+  "name": "external-libs",
+  "authors": [
+    "Khadar Baig <khadar.baig@senecaglobal.com>"
+  ],
+  "description": "All third party libs",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "angular-moment": "^0.10.3",
+    "underscore": "components-underscore#^1.8.3"
+  }
+}
