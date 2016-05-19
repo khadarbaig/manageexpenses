@@ -1,0 +1,37 @@
+<div class="text-center">						
+	<div class="login-wrapper">
+		<div class="row">
+			<div class="col-md-4 col-md-offset-4 col-sm-6 col-sm-offset-3">
+				<div class="module form-module">
+					<div class="toggle" title="Sign in to account" data-ng-show="!login.isSignIn" data-ng-click="login.openSignIn(true)">
+				    Sign in
+				  </div>
+				  <div class="toggle" title="Create an account" data-ng-show="login.isSignIn" data-ng-click="login.openSignIn(false)">
+				    Sign up
+				  </div>
+				  <div class="form" data-ng-show="login.isSignIn">
+				    <h2>Login to your account</h2>
+				    <form>
+				    	<label class="control-label requiredField pull-left" for="username">Username</label>
+				      <input type="text" placeholder="Username"/>
+				      <label class="control-label requiredField pull-left" for="username">Password</label>
+				      <input type="password" placeholder="Password"/>									      
+				      <button>Login</button>
+				    </form>
+				  </div>
+				  <div class="form" data-ng-show="!login.isSignIn">
+				    <h2>Create an account</h2>
+				    <form>
+				      <input type="text" placeholder="Username"/>
+				      <input type="password" placeholder="Password"/>
+				      <input type="email" placeholder="Email Address"/>
+				      <input type="tel" placeholder="Phone Number"/>
+				      <button>Register</button>
+				    </form>
+				  </div>
+				  <div class="cta btn"><a href="#">Forgot your password?</a></div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
